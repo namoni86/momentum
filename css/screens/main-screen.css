@@ -1,0 +1,105 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+#clock {
+  /* top: 25%; */
+  font-size: 128px;
+  margin-bottom: 48px;
+}
+
+#login-form {
+  /* display: flex; */
+  width: 640px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#login-form input:last-child {
+  font-size: 32px;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  width: 640px;
+  margin-bottom: 48px;
+}
+
+#todo-form {
+  width: 640px;
+}
+
+input {
+  display: block;
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.8;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+input::placeholder {
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 12px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#todo-list li span {
+  font-size: 36px;
+}
+
+#todo-list li button {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+#quote {
+  position: absolute;
+  bottom: 24px;
+  font-size: 24px;
+}
+
+#weather {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 16px;
+}
